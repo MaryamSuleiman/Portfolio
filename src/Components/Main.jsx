@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import './Main.css'
 import image from '../images/IMG-1849.jpg'
+import img2 from '../images/dach.jpg'
 
 function Main() {
   return (
@@ -16,25 +17,53 @@ function Main() {
                     <button className="btn">Contact Me</button>
                     
                 </div>
-                <div>
+                <div >
                     <img src={image} alt='me'/>
                 </div>
             </div>
             <div className='About'>
                   <h2>About me.</h2>
-                   <div>
-                    <div>
-                      <img src="" alt="" />
+                   <div className='About-main'>
+                    <div className='img'>
+                      <img src={img2} alt="" />
                     </div>
                     <div>
                       <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, nesciunt aperiam fugiat accusantium quas quo sapiente veritatis debitis doloribus expedita vitae commodi eius ex quaerat, repudiandae ullam ad porro laborum!
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, deleniti sunt at quas excepturi nobis doloremque sed minus ullam eaque impedit cum, tempore voluptate voluptates, exercitationem quod earum. Modi, rem.
+                         My name is Maryam Suleiman.A graduate of Computer Science at Ahmadu Bello University Zaria.Also an enthusiasic junior Frontend Developer specializing in  building functional and  responsive web pages.
+                      </p>
+                      <p>
+                        I build projects using HTML,CSS,Javascript and React.
+
                       </p>
                       
                     </div>
 
                    </div>
+           </div>
+           <div className='Skills'>
+            <div className='Skills-container'>
+                 <h2>Skills.</h2>
+            </div>
+            <div className='Skills2'>
+                   <div className='skills-card'>
+                   <img src="" alt="" />
+                   <p>HTML</p>
+                  </div>
+                  <div className='skills-card'>
+                  <img src="" alt="" />
+                   <p>CSS</p>
+                  </div>
+                 <div className='skills-card'>
+                 <img src="" alt="" />
+                  <p>JavaScript</p>
+                   </div>
+                <div className='skills-card'>
+                   <img src="" alt="" />
+                   <p>React</p>
+                 </div>
+         </div>
+
+
            </div>
 
     </div>
