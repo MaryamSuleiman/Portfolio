@@ -1,80 +1,40 @@
 import React from 'react'
 import Navbar from './Navbar'
 import './Main.css'
-import image from '../images/IMG-1849.jpg'
-import img2 from '../images/dach.jpg'
+import { GithubLogo,InstagramLogo,FacebookLogo,TwitterLogo,Envelope} from 'phosphor-react'
 
 function Main() {
   return (
-    <div>
-      <Navbar/>
+    <>
+     <Navbar/>
     <div className='portfolio-container'>
-            <div className="Portfolio-main">
-                <div className="portfolio-heading">
-                    <p>I'm</p>
-                    <h2><span className="span"> Maryam Suleiman,</span></h2>
-                    <p>A front-End Web Developer.</p>
-                    <button className="btn">Contact Me</button>
-                    
-                </div>
-                <div >
-                    <img src={image} alt='me'/>
-                </div>
-            </div>
-            <div className='About'>
-                  <h2>About me.</h2>
-                   <div className='About-main'>
-                    <div className='img'>
-                      <img src={img2} alt="" />
-                    </div>
-                    <div>
-                      <p>
-                         My name is Maryam Suleiman.A graduate of Computer Science at Ahmadu Bello University Zaria.Also an enthusiasic junior Frontend Developer specializing in  building functional and  responsive web pages.
-                      </p>
-                      <p>
-                        I build projects using HTML,CSS,Javascript and React.
-
-                      </p>
-                      
-                    </div>
-
-                   </div>
+      <div className='portfolio-main'>
+        <p><span className='p'> Hi,my name is</span></p>
+        <h2 className='h2-'>Maryam Suleiman.</h2>
+        <h2><span className='h2'>I build things for the web</span></h2>
+      </div>
+      <div className='portfolio-intro'>
+          <p>I'm a frontend developer specialized in building functional and responsive websites.</p>
+      </div>
+      <div className='portfolio-icons'>
+           <div className='portfolio-icon'>
+               <GithubLogo size={35} weight="thin" color='pink' />
            </div>
-           <div className='Skills'>
-            <div className='Skills-container'>
-                 <h2>Skills.</h2>
+            <div className='portfolio-icon'>
+                 <InstagramLogo size={35} weight="thin" color='pink'/>
             </div>
-            <div className='Skills2'>
-                   <div className='skills-card'>
-                   <img src="" alt="" />
-                   <p>HTML</p>
-                  </div>
-                  <div className='skills-card'>
-                  <img src="" alt="" />
-                   <p>CSS</p>
-                  </div>
-                 <div className='skills-card'>
-                 <img src="" alt="" />
-                  <p>JavaScript</p>
-                   </div>
-                <div className='skills-card'>
-                   <img src="" alt="" />
-                   <p>React</p>
-                 </div>
-         </div>
-
-
-           </div>
-
+            <div className='portfolio-icon'>
+                 <FacebookLogo size={35} weight="thin"color='pink' />
+             </div>
+             <div className='portfolio-icon'>
+                   <TwitterLogo size={35} weight="thin" color='pink'/>
+             </div>
+            <div className='portfolio-icon'>
+                 <Envelope size={35} weight="thin"color='pink' />
+            </div>
+      </div>
     </div>
-                
-    </div>
-    
-
-
-
-
-
+    </>
   )
 }
 

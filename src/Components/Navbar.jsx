@@ -4,15 +4,25 @@ import './Navbar.css'
 function Navbar() {
   return (
     <div className='nav-bar'>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Services</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
+    
+       <div className='Nav-header'>
+          <h2> {"<Maryam />"} </h2>
+        </div>
+
+        <div className='Nav-li' >
+              <li>Home</li>
+               <li>About</li>
+               <li>Projects</li>
+               <li>Services</li>
+               <li>Contact</li>
+    
+              <button className='nav-btn'> Resume </button>
+            
+        </div>
+        
+      
+  
+      
     </div>
   )
 }
