@@ -3,31 +3,34 @@
     display: flex;
     justify-content:space-between ;
     align-items: center;
-    background-color:#233554;
-    color: #ffcaca;
+    background-color:#404853;
+    color:#cec7c1;
+    height: 7rem; 
     
 }
 .Nav-li{
+    font-family: 'Dancing Script', cursive;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 20rem;
     gap: 3rem;
     list-style-type: none;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 .Nav-header h2{
     margin-left: 5rem;
-    font-size: 3rem;
+    font-size: 4rem;
+    font-weight:bolder;
     font-family: 'Dancing Script', cursive;
     
 }
 .nav-btn{
-    font-family: 'Lobster Two', cursive;
-    border: 1px solid pink;
-    padding: 0.8rem;
-    background-color: #112240;
-    color: pink;
+    font-family: 'Dancing Script', cursive;
+    border:1px solid #f88225;
+    padding: 0.9rem;
+    background-color:#1d2228;
+    color:#cec7c1;
     border-radius: 5px;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }

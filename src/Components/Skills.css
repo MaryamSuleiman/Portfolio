@@ -1,0 +1,28 @@
+.Skills{
+    width: 90%;
+    margin: 20px auto;
+    font-family: 'Baskervville', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quattrocento', serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-family: 'The Girl Next Door', cursive;
+}
+.skills-h3{
+    font-size:5rem ;
+    color: #f88225;
+    font-family:'Dancing Script', cursive;
+    text-align: center;
+}
+.skills-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.skills-img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+}

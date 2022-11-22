@@ -1,49 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
 
 body {
-   font-family: 'Lobster Two', cursive;
+   font-family: 'Dancing Script', cursive;
+   background-color:#1d2228;
+   color:#cec7c1;
 }
 
 .portfolio-container{
-   background-color:#112240;
-   padding-top: 1rem;
-   padding: 1rem;
+   padding-top: 3rem;
+   padding: 5rem;
    height: 100vh;
-   
    
 }
 .portfolio-main{
-   margin: 4rem;
-   margin-left: 10rem;
-   width: 95%;
    
 }
 .portfolio-icons{
    display: flex;
    align-items: center;
-   margin-left:10rem ;
    gap: 2rem;
-   opacity: 0.7;
+   padding-top: 1rem;
+   
 }
-.p{color: pink;
-   font-size: 1.8rem;
+.p{
+   font-size: 2rem;
 
 }
 .h2{
    font-size: 3rem;
-   color: pink;
    opacity: 0.6;
 }
 .h2-{
    width: 50%;
-   font-size: 5rem;
-   color: pink;
-   margin: 0;
-
+   font-size: 6rem;
+   font-weight: bolder;
+   color: #f88225;
 }
 .portfolio-intro{
-   color: pink;
-   font-size: 3rem;
-   margin-left: 10rem;
-   width:50% ;
+   font-size: 3.3rem;
+   width:50%;
+   
 }
+

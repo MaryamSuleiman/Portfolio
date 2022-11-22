@@ -1,9 +1,12 @@
 import React from 'react'
 import './Navbar.css'
 
+
 function Navbar() {
   return (
+   
     <div className='nav-bar'>
+       
     
        <div className='Nav-header'>
           <h2> {"<Maryam />"} </h2>
@@ -12,7 +15,7 @@ function Navbar() {
         <div className='Nav-li' >
               <li>Home</li>
                <li>About</li>
-               <li>Projects</li>
+               <li>Skills</li>
                <li>Services</li>
                <li>Contact</li>
     
