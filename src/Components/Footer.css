@@ -1,0 +1,16 @@
+.Footer{
+    background-color:#404853;
+    color:#cec7c1;
+    height: 5rem; 
+    width:100%;
+}
+
+
+
+.Footer p{ 
+text-align: center;
+font-size:  1rem;
+color:#cec7c1;
+font-weight:bolder;
+font-family: 'Dancing Script', cursive;
+}

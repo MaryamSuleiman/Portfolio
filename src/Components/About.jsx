@@ -11,13 +11,14 @@ function About() {
     <div className='About-main'>
         
          <div className='About-img'>
-           <div className='about-border'></div> 
+           {/* <div className='about-border'></div>  */}
              <img src={innah} alt="me" />
          </div> 
 
          <div className='About-p'>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ab corporis eligendi aut veniam culpa? Natus error, optio accusamus voluptas inventore ab impedit incidunt. Ad, accusantium. Vel, provident. Et, hic.</p>
-             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptas nemo saepe inventore facilis eveniet tenetur quis. Inventore similique architecto quo ipsa obcaecati ipsum commodi eos, at esse incidunt iste.</p>
+             <p>My name is Maryam Suleiman, a Front-End Web Developer. I love building functional and responsive websites </p>
+             <p>I work primarily with MongoDB, Express, React, Node, and Javascript and have set up countless and Shopify websites. My previous career was as an IT Consultant, E-commerce Business Owner, and Digital Marketer. I also really enjoy tinkering with CSS.
+             In my spare time, I play video games and also work out."</p>
       
           </div>
    

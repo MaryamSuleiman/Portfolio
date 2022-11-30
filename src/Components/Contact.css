@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@1&family=Playfair+Display&family=Quattrocento&family=Shadows+Into+Light&family=Shadows+Into+Light+Two&family=The+Girl+Next+Door&display=swap');
+
+.contact-container{
+   width: 90%;
+   margin: 20px auto;
+   font-family: 'Baskervville', serif;
+   font-family: 'Playfair Display', serif;
+   font-family: 'Quattrocento', serif;
+   font-family: 'Shadows Into Light Two', cursive;
+   font-family: 'The Girl Next Door', cursive;
+}
+.contact-main{
+    padding: 1rem;
+}
+
+.contact-h3{
+    border-top: 1px solid #dddd ;
+    font-size:4rem ;
+    color: #f88225;
+    font-family:'Dancing Script', cursive;
+    text-align: center;
+}
+.contact-p{
+    font-size: 1rem;
+    color: #cec7c1;
+    text-align: justify;
+    width: 45%;
+}
+.spn{
+    color: #f88225;
+}
+
+.contact-icon{
+    display: flex;
+    padding: 0.5rem;
+}
+
+.contact-icon li{
+    list-style-type: none;
+    font-size: 1rem;
+}

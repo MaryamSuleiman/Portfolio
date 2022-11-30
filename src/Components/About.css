@@ -7,13 +7,12 @@
    font-family: 'Baskervville', serif;
    font-family: 'Playfair Display', serif;
    font-family: 'Quattrocento', serif;
-   font-family: 'Shadows Into Light', cursive;
    font-family: 'Shadows Into Light Two', cursive;
    font-family: 'The Girl Next Door', cursive;
 }
 
-.About-h3{
-   font-size: 5rem;
+.About-h3{border-top: 1px solid #dddd;
+   font-size: 4rem;
    font-weight: bolder;
    color:#f88225; 
    text-align: center;
@@ -22,7 +21,7 @@
    
 }
 .About-p{
-    font-size: 2rem;
+    font-size: 1rem;
     color: #cec7c1;
     text-align: justify;
     width: 62%;
@@ -32,24 +31,24 @@
    display: flex;
    justify-content: space-between;
    align-items: center; 
-   padding: 2rem;
-   padding-bottom: 5rem;
-   gap: 2em;
+   padding: 1rem;
+   /* padding-bottom: 4rem; */
+   gap: 1em;
 }
 .about-border{
    border: 4px solid  #f88225;     
    z-index: -1;
    position: absolute;
-   width: 30%;
-   height: 45%; 
+   width: 35%;
+   height: 58%; 
    border-radius: 10px;
 
 }
 .About-img img{
    position: relative;
    border-radius: 10px;
-   height: 85%;
-   width: 72%;
+   height: 70%;
+   width: 60%;
    margin-left: 2rem;
    opacity: 1;
    bottom: 30px;

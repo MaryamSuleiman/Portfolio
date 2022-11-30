@@ -7,9 +7,9 @@ body {
 }
 
 .portfolio-container{
-   padding-top: 3rem;
-   padding: 5rem;
-   height: 100vh;
+   padding-top: 2rem;
+   padding: 4rem;
+   /* height: 100vh; */
    
 }
 .portfolio-main{
@@ -18,26 +18,26 @@ body {
 .portfolio-icons{
    display: flex;
    align-items: center;
-   gap: 2rem;
-   padding-top: 1rem;
+   gap: 1rem;
+   padding-top:0.5rem;
    
 }
 .p{
-   font-size: 2rem;
+   font-size: 1.5rem;
 
 }
 .h2{
-   font-size: 3rem;
+   font-size: 2rem;
    opacity: 0.6;
 }
 .h2-{
    width: 50%;
-   font-size: 6rem;
+   font-size: 4rem;
    font-weight: bolder;
    color: #f88225;
 }
 .portfolio-intro{
-   font-size: 3.3rem;
+   font-size: 2rem;
    width:50%;
    
 }
